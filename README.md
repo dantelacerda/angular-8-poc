@@ -25,3 +25,35 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Notas Pessoais:
+
+
+Instalar:
+	nem install -g @angular/cli
+
+Criar Projeto:
+	ng new nome-do-projeto
+
+Executar Projeto:
+	ng serve
+	http://localhost:4200/
+
+Adicionar módulos e componentes:
+	src/app/app.module.ts
+
+Criar componentes:
+	ng g component home
+	ng g component about
+	Os componentes já são adicionados no arquivo app.module.ts automaticamente;
+
+Rotas:
+	src/app/app-routing.module.ts
+
+Criando um Service:
+	 ng g service nome-do-service
+
+Ps: As classes .ts são os controlares das telas. ex.:
+src/app/home/home.component.ts.  -> Fica o ngOnInit() e realiza a consulta dos produtos
+
+src/app/home/home.component.html -> é a tela
