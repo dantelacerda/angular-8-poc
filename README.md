@@ -57,3 +57,13 @@ Ps: As classes .ts são os controlares das telas. ex.:
 src/app/home/home.component.ts.  -> Fica o ngOnInit() e realiza a consulta dos produtos
 
 src/app/home/home.component.html -> é a tela
+
+#PARA EXECUTAR ESSE PROJETOS:
+
+Entra na pasta server e executa:
+$ npm run generate
+$ npm run server
+
+Em outro terminal volta para a raiz e executa:
+
+$ ng serve
